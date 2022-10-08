@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/pngtree-task-list-png-image_5687735.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Changa:wght@500&family=Fjalla+One&family=Jost:wght@500&family=Lobster&family=Montserrat:wght@400;500;600&family=Noto+Kufi+Arabic&family=Open+Sans:wght@300&family=Oswald&family=Poppins&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Rubik+Wet+Paint&family=Rubik:wght@700&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link id="main" rel="stylesheet" href="css/main.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="load">
+        <div class="spinner" >
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="theme">
+                <i class="fa-solid fa-moon themeicon mt-5 mb-5"></i>
+            </div>
+            <div class="row mt-5" >
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <img src="img/todo [Converted].svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-12 order-lg-2 order-1 mt-5">
+                    <div class="Intro">
+                        <h1>TO DO LIST
+                        </h1>
+                        <P>It's a list of tasks you need to complete or things that you want to do,You can Build, Organize & Collaborate on Work in One Place from Virtually Anywhere
+                        </P>
+                    </div>
+                    <div class="bigContainer">
+                        <div class="inputs">
+                            <div class="notValidmsg none"></div>
+                            <input type="text" class="name" placeholder="Add Your Task.." required>
+                        </div>
+                        <div class="inputs">
+                            <div class="notValidmsg none"></div>
+                            <input type="url" class="name" placeholder="Add URL.." required >
+                        </div>
+                        <div class="inputs">
+                            <div class="notValidmsg none"></div>
+                            <input type="date" class="name" required>
+                        </div>
+                        <button id="btn-1" class="text-center" type="submit">Add</button>
+                        <div class="noTasks">
+                            <p class="m-0">No Tasks Added</p>
+                        </div>
+                        <div class="allTasks">
+                        </div>
+                        <div class="popup-img none col-12" >
+                            <div class="col-lg-6 col-10 img-m">
+                                <img id="bigImg" src="img/pexels-photo-4238351 (1).jpeg" class="img-fluid" alt="">
+                            </div>
+                            <div class="exit"><i class="fa-solid fa-xmark"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
